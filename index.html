@@ -6,30 +6,6 @@
     https://js-va19xr.stackblitz.io
   </a>
   <br />
-  <span class="negrita">GitHub:</span>
-  <a
-    href="https://github.com/Bernadi1/08MBID---Visualizacion-de-Datos"
-    target="_blank"
-  >
-    https://github.com/Bernadi1/08MBID---Visualizacion-de-Datos
-  </a>
-  <br />
-  <span class="negrita">Excel:</span>
-  <a
-    href="https://docs.google.com/spreadsheets/d/1oq_fBd-j3gT8I7UHLKJUIDiaqucsmFdcN2--NtyARVY/edit?usp=sharing"
-    target="_blank"
-  >
-    https://docs.google.com/spreadsheets/d/1oq_fBd-j3gT8I7UHLKJUIDiaqucsmFdcN2--NtyARVY/edit?usp=sharing
-  </a>
-  <br />
-  <span class="negrita">Google Colab:</span
-  ><a
-    href="https://colab.research.google.com/drive/1A-XskBaLjXylu42UPFO0NlPHZ5Ao3ClR?usp=sharing"
-    target="_blank"
-  >
-    https://colab.research.google.com/drive/1A-XskBaLjXylu42UPFO0NlPHZ5Ao3ClR?usp=sharing</a
-  >
-  <br />
   <h1>Visualización Trabajo Práctico</h1>
   <br />
 
@@ -38,21 +14,23 @@
   donde depositar su dinero. En este trabajo vamos a intentar realizar, mediante
   visualizaciones, un estudio de qué mercado evolucionó mejor a lo largo de 3
   años y medio. Empezando en enero de 2018 y acabando en junio de 2021, pasando
-  por la crisis del covid, vamos a comparar dos índices, el índice HSI que
-  representará el mercado chino y el índice NYA que representará el mercado
+  por la crisis del covid, vamos a comparar dos índices. El índice HSI
+  representará el mercado chino y el índice NYA representará el mercado
   americano. El índice HSI está formado por 42 compañías cotizadas en el Stock
   Exchange de Hong Kong (SEHK) y que representan el 65% de la bolsa de Valores
-  de Hong Kong. Por otro lado, el índice NYA está formado por cubre todas las
-  acciones comunes que cotizan en la Bolsa de Valores de Nueva York.
+  de Hong Kong. Por otro lado, el índice NYA cubre todas las acciones comunes
+  que cotizan en la Bolsa de Valores de Nueva York.
   <br />
   <h2>Objetivo</h2>
-  Lo que queremos ver es qué mercado , si el de china o el de estados unidos
-  (representados cada uno por un índice), evolucionó mejor durante las fechas
+  Lo que queremos ver es qué mercado, si el de china o el de estados unidos
+  (representados cada uno por su índice), evolucionó mejor durante las fechas
   señaladas previamente y ver cual superó mejor la crisis sanitaria que fue
-  vivida en esos años.
+  vivida en esos años para poder usar esa información en un futuro donde nos
+  pudiera esperar algo similar.
   <br />
   <br />
-  Veamos para empezar los la distribución de los retornos que obtuvieron ambos índices durante este tiempo.
+  Veamos para empezar la distribución de los retornos diarios que obtuvieron
+  ambos índices durante este tiempo.
   <br />
   <br />
   <iframe
@@ -83,7 +61,7 @@
     })();
   </script>
   <br />
-  
+
   <iframe
     title="% Retornos del índice NYA"
     aria-label="Column Chart"
@@ -113,10 +91,13 @@
   </script>
   <br />
   <br />
-  Podemos observar en ambos índices que la distribución de retornos es asímetrica, siendo que esta está tumbada hacia la derecha. No obstante, en el índice NYA vemos los retornos más concentrados entre el -1% y 1%. 
+  Podemos observar en ambos índices que la distribución de retornos es
+  asímetrica, siendo que esta está tumbada hacia la derecha. No obstante, en el
+  índice NYA vemos los retornos más concentrados entre el -1% y 1%.
   <br />
   <br />
-  Veamos ahora que pasa cuando observamos una cartera de 100 euros iniciales puestas en cada índice.
+  Veamos ahora que pasa cuando observamos una cartera de 100 euros iniciales
+  puestas en cada índice.
 
   <br />
   <iframe
@@ -140,6 +121,12 @@
   ></iframe>
   <br />
   <br />
+  Podemos observar como la cartera americana remontó la caída que se había
+  provocado debido al covid en el siguiente semestre, mientras que la cartera
+  china necesita de 1 año para remontar la caída, y lo hace con menos
+  intensidad.
+  <br />
+  <br />
   Finalmente comparemos las dos carteras en el día a día.
   <br />
   <iframe
@@ -151,11 +138,83 @@
     src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSfJuWf9TcP3kG2AlZclM5bvRUECi1-TNw57QdjdXmmpzfMJZM_Gis8I9wodnkMMnxywZXSZSOlhGda/pubchart?oid=1799480697&amp;format=interactive"
   ></iframe>
   <br />
+  <br />
+  En este gráfico podemos ver claramente como la cartera del índice americano
+  está prácticamente siempre por encima de la cartera del índice chino. Aunque
+  la segunda cartera tuvo una caída menos pronunciada durante la crisis del
+  covid, también se ve una recuperación más lenta.
+  <br />
   <h2>Conclusiones</h2>
+  Como hemos podido ver en los anteriores gráficos, claramente ha tenido una
+  mejor actuación el índice americano que el índice chino. Mientras que el
+  primero de estos índices habría subido 28,32% en el periodo establecido a
+  examinar, la cartera china habria bajado un 5,55%. Lo cual sitúa los dos
+  índices en un alejado final, donde se ve claramente una rentabilidad más alta
+  que la otra.
   <br />
-  Como hemos podido ver en los anteriores gráficos, claramente ha tenido una mejor actuación el índice americano que el índice chino.
+  <br />
+  Hemos podido ver en este trabajo la importancia de la visualización de los
+  datos, siendo que esta es capaz de dejar muy claro el resultado obtenido del
+  análisis y estudio de estos. Por ejemplo, en el último gráfico se puede ver
+  muy claramente como el índice americano está casi todo el rato por encima del
+  índice chino en valor. Esto representado sólo con una tabla de números sería
+  algo muy difícil de leer, por no hablar de lo difícil que sería ver la
+  distribución de los retornos que hemos hecho en el primer gráfico o la
+  variación semestral de las carteras.
   <br />
   <br />
-  Mientras que el primero de estos índices habría subido 28,32% en el periodo establecido a examinar, la cartera china habria bajado un 5,55%. Lo cual sitúa los dos índices en un alejado final, donde se ve una clara rentabilidad más alta que la otra.
+  Vemos también como la elección de colores ayuda en su comprensión ya que en
+  los gráficos de la evolución de la cartera cada 6 meses es muy fácil ver en
+  qué periodos la cartera pierde valor, ya que el color rojo nos lleva a pensar
+  que ahí ha habido una pérdida.
+  <br />
 
+  <h3>Aplicaciones usadas</h3>
+  Para la realización de esta actividad se han usado dos aplicaciones.
+  <br />
+  <br />
+  <span class="negrita">Google Docs:</span>
+  Hemos usado dos documentos de Google Docs en este trabajo. El primero se ha
+  usado para realizar los 2 primeros gráficos con Data Wrapper, mientras que
+  desde el segundo hemos realizado ya los 3 últimos gráficos usados.
+  <br />
+  &nbsp;&nbsp;&nbsp;<span class="negrita">Excel 1:</span>
+  <a
+    href="https://docs.google.com/spreadsheets/d/1R_MeF6PMwky7IFvnyu12NUPHnm7NNPhoILTmKQOGRvo/edit?usp=sharing"
+    target="_blank"
+  >
+    https://docs.google.com/spreadsheets/d/1R_MeF6PMwky7IFvnyu12NUPHnm7NNPhoILTmKQOGRvo/edit?usp=sharing
+  </a>
+  <br />
+  &nbsp;&nbsp;&nbsp;<span class="negrita">Excel 2:</span>
+  <a
+    href="https://docs.google.com/spreadsheets/d/1oq_fBd-j3gT8I7UHLKJUIDiaqucsmFdcN2--NtyARVY/edit?usp=sharing"
+    target="_blank"
+  >
+    https://docs.google.com/spreadsheets/d/1oq_fBd-j3gT8I7UHLKJUIDiaqucsmFdcN2--NtyARVY/edit?usp=sharing
+  </a>
+  <br />
+  <br />
+  <span class="negrita">Data Wrapper:</span>
+  Esta página web se usa para visualizar datos. Uno de los puntos fuertes de
+  esta página es que los datos que se visualizan se pueden obtener desde
+  distintos orígenes, como puede ser un google docs que es lo que hemos hecho en
+  este trabajo, cosa que resulta ser muy práctica. También te permite, aunque de
+  manera reducida, modificar los datos que hayas usado de tu google docs. Aquí
+  se ha usado la aplicación por lo estéticos que son sus gráficos y su facilidad
+  para implementarlo en stackblitz.
+  <br />
+  <h3>Datos usados</h3>
+  Los datos usados en esta actividad se pueden consultar en el siguiente enlace
+  de la página web de kaggle y son los mismos que se han usado en otras
+  asignaturas del máster:
+  <a
+    href="https://www.kaggle.com/datasets/mattiuzc/stock-exchange-data?select=indexData.csv"
+    target="_blank"
+  >
+    https://www.kaggle.com/datasets/mattiuzc/stock-exchange-data?select=indexData.csv</a
+  >
+  <br />
+  De los Data Sets disponibles en el enlace hemos usado el de Data Set
+  indexProcessed.
 </div>
